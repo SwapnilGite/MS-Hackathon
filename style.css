@@ -1242,3 +1242,11 @@ body {
   }
 
 }
+
+
+/* Waivy Ms logo */
+.waviy img{
+  height: 4rem;
+  margin-right: 20px;
+  color: red;
+}
