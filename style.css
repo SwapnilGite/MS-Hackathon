@@ -713,7 +713,7 @@ body {
 /* @media only screen and{
 
 } */
-@media screen and (min-width:240px) and (max-width:260px) {
+@media screen and (min-width:240px) and (max-width:279px) {
   .complogo {
     margin-top: 60px;
     width: 200px;
@@ -895,7 +895,7 @@ body {
   }
 
 }
-@media screen and (min-width:340px) and (max-width:380px) {
+@media screen and (min-width:330px) and (max-width:390px) {
   .complogo {
     margin-top: 50px;
     width: 350px;
@@ -980,7 +980,7 @@ body {
 
 }
 
-@media screen and (min-width:400px) and (max-width:450px) {
+@media screen and (min-width:400px) and (max-width:470px) {
   .complogo {
     margin-top: 50px;
     width: 350px;
