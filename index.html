@@ -1,210 +1,297 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <head>
-      <title>Hackathon</title>
-      <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Hackathon</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css">
       <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-      
       <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3  ">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-sm-3  ">
         <div class="container">
           <a href="#" class="navbar-brand"><img src="MSW.png" class="logo"></a>
-          <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
+          <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
-              <li class="nav-item"id="navitem">
-                <a href="#" class="nav-link text-white"id="navlink">Home</a>
+              <li class="nav-item" id="navitem">
+                <a href="#" class="nav-link text-white" id="navlink">Home</a>
               </li>
-              <li class="nav-item"id="navitem">
-                <a href="#objective" class="nav-link text-white"id="navlink" >Objective</a>
+              <li class="nav-item" id="navitem">
+                <a href="#objective" class="nav-link text-white" id="navlink">Objective</a>
               </li>
-              <li class="nav-item"id="navitem">
-                <a href="#Problem" class="nav-link text-white"id="navlink">Problem Statements</a>
+              <li class="nav-item" id="navitem">
+                <a href="#Problem" class="nav-link text-white" id="navlink">Problem Statements</a>
               </li>
-              <li class="nav-item"id="navitem">
-                <a href="#Structure" class="nav-link text-white"id="navlink">Structure</a>
+                           <li class="nav-item" id="navitem">
+                <a href="#contact" class="nav-link text-white" id="navlink">Contact</a>
               </li>
-              <li class="nav-item"id="navitem">
-                <a href="#Rules" class="nav-link text-white"id="navlink">Rules</a>
-              </li>
-              <li class="nav-item"id="navitem">
-                <a href="#FAQ" class="nav-link text-white"id="navlink">FAQ</a>
-              </li> <li class="nav-item"id="navitem">
-              <a href="#contact" class="nav-link text-white"id="navlink">Contact</a>
-            </li>
-          </ul>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Logo -->
+      <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="bottom-container">
+          Hackathon
+        </div>
+        <div class="top-container">
+          5.0
+        </div>
+        <div class="button" id="button-5">
+          <div id="translate"></div>
+          <a href="#">Register</a>
+        </div>
+        <div class="comp"><img src="complogo.png" class="complogo" data-aos="fade-up" data-aos-duration="3000"></div>
+        <div class="content text-center">
         </div>
       </div>
-    </nav>
-    
-    <!-- Logo -->
-    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" >
-      <div class="bottom-container">
-        Hackathon
-      </div>
-      <div class="top-container">
-        5.0
-      </div>
-      <div class="button" id="button-5">
-        <div id="translate"></div>
-        <a href="#">Register</a>
-      </div>
-      <div class="comp"><img src="complogo.png" class="complogo" data-aos="fade-up" data-aos-duration="3000"></div>
-      <div class="content text-center">
-        
-      </div>
-    </div>
-    <!-- Main Content -->
-    <div class="container my-5 d-grid gap-5" >
-      <div class="p-5 border" data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine" id="objective">
-        <p>
-          [objective]Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.
-        </p>
-      </div>
-      <div class="p-5 border" data-aos="fade-left"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine" id="Problem">
-        <p>
-          [Problem Statements]Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.
-        </p>
-      </div>
-      <div class="p-5 border" data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine" id="Structure">
-        <p>
-          [Structure]Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.
-        </p>
-      </div>
-      <div class="p-5 border" data-aos="fade-left"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine" id="Rules">
-        <p>
-          [Rules]Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.
-        </p>
-      </div>
-      <div class="p-5 border" data-aos="fade-up"
-       
-        data-aos-easing="ease-in-sine" id="FAQ">
-        <p>
-          [FAQ]Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laudantium, quisquam commodi delectus voluptates et consequatur rerum eveniet amet assumenda excepturi voluptate, ipsum. Rem alias corporis mollitia recusandae consequuntur ut.
-        </p>
+      <!-- Main Content -->
+      <div class="container my-5 d-grid gap-5">
+        <!-- //Objective Page -->
+        <div class="p-4 border " data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" id="objective">
+          <div class="heading">
+            <i class="fa fa-bullseye fa-5x"></i>
+            <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+            <h1>Objective</h1>
+          </div>
+          <p>This is a 24-hour hackathon to code, strategize and innovate some ingenious solutions to the most sought out
+          real-life problem statements</p>
+        </div>
+        <!-- // Date -->
+        <div class="p-4 border " data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"
+          id="data-bs-toggle">
+          <div class="heading">
+            <img class="date" src="date.png" alt="">
+            <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+            <h1>Date</h1>
+          </div>
+          <p>This is a 24-hour hackathon to code, strategize and innovate some ingenious solutions to the most sought out
+          real-life problem statements</p>
+        </div>
+        <!-- //Problem Statements -->
+        <div class="p-4 border " data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" id="Problem">
+          <div class="heading">
+            <i class="fa fa-question-circle fa-5x"></i>
+            <!-- <h3>problem Statements</h3> -->
+            <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+            <h1>Problem Statements</h1>
+          </div>
+          <ul>
+            <li><button class="bubbly-button">Problem Statement 1</button></li>
+            <li><button class="bubbly-button">Problem Statement 2</button></li>
+            <li><button class="bubbly-button">Problem Statement 3</button></li>
+            <li><button class="bubbly-button">Problem Statement 4</button></li>
+          </ul>
+        </div>
+        <!-- // Structure Page -->
+        <div class="p-4 border" data-aos="fade-up" data-aos-easing="ease-in-sine" id="Structure">
+          <div class="heading">
+            <i class="fa fa-cog fa-5x"></i>
+            <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+            <h1>Structure</h1>
+          </div>
+          <div>
+            <h4>Problem Statement</h4>
+            <p>The problem statements will be released 2 weeks before the day of the hack on 9th Sept 2019. There will be 3
+            problem statements for the team to choose from</p>
+            <h4>Networking Session</h4>
+            <p>Before the hackathon starts, there will be a networking session for the participants to get to know their
+              fellow comrades and get accustomed to the environment. Participants are encouraged to make the most of this
+            time. After</p>
+            <h4>24-Hour Hackathon</h4>
+            <p>
+              All the participating teams will work round-the-clock on their problem statements for a period of 24 hours,
+              starting at 3pm on 21st sept. At the end of the allotted time, the teams will give the final presentations
+              in-front of the judges.
+            </p>
+          </div>
+        </div>
+        <!-- // Rules -->
+        <div class="p-4 border" data-aos="fade-up" data-aos-easing="ease-in-sine" id="Rules">
+          <div class="heading">
+            <i class="fa fa-pencil fa-3x"></i>
+            <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+            <h1>Rules</h1>
+          </div>
+          <ul>
+            <li>Teams will be given 3 problem statements to choose from and develop a solution in the 24-hour time period.
+            The solution may consist of a desktop app, web app, mobile app, data visualization or a design prototype.</li>
+            <li>Participants should develop an application of their choice to best fit the solution of the given problem
+              statement. Mentors will be present at the location to help the teams and to check on what the teams are
+            developing for some period of the Hackathon.</li>
+            <li>Every team will have to explain their product individually to our mentors roaming around and will have to
+            give a final presentation to our judging panel, out of which the winner will be chosen</li>
+            <li>Every team should bring their own electronics appliances they may require, e.g. laptops, mouse, pen-drives,
+              etc. The use of different types of hardware and software is encouraged throughout the event. A checklist will
+            be sent to the participants a few weeks before the event.</li>
+            <li>Participants must bring their registration receipts, college ID and various things which would be mentioned
+            in the checklist, while coming to event.</li>
+            <li>Rules may be changed without prior intimation. Participants are requested to check the official MindSpark'19
+            website (www.mind-spark.org) regularly for updates.</li>
+            <li>Winners will be chosen solely on discretion. In case of any disputes, the decision of the organizers and the
+            judges will be final and binding to all.</li>
+          </ul>
+        </div>
+        <!-- // Team Size and fees -->
+        <div class="p-4 border" data-aos="fade-up" data-aos-easing="ease-in-sine" id="Teams">
+          <div>
+            <i class="fa fa-users fa-3x"></i>
+            <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+            <h1>Team Size</h1>
+            <p>4 participants per team.</p>
+          </div>
+          <hr>
+          <div>
+            <!-- <i class="fa fa-dollar-sign"></i> -->
+            <i class="fa fa-money fa-3x"></i>
+            <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+            <h1>Fees</h1>
+            <p>₹ 300/- per team.</p>
+          </div>
+        </div>
+        <!-- // FAQ -->
+        <div class="p-4 border" data-aos="fade-up" data-aos-easing="ease-in-sine" id="FAQ">
+          <div class="heading">
+            <i class="fa fa-eye fa-5x"></i>
+            <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+            <h1>Faq</h1>
+          </div>
+          <div>
+            <h4>Q. Who can participate in the hackathon?</h4>
+            <p>A. Any student with a valid college ID card and a receipt of registration may participate.</p>
+            <h4>Q. I have never participated in a Hackathon. Should I participate in this one?</h4>
+            <p>A. Everybody has a first time. We encourage first timers to participate in the Hackathon and get first-hand
+            experience in building a real life product.</p>
+            <h4>Q. Are cross college teams allowed?</h4>
+            <p>A. Yes, participants from different colleges/institutions may form a team. However, one participant may not
+            be a part of different teams for the same event.</p>
+            <h4>Q. What should we bring along on the day of the event?</h4>
+            <p>A. Participating teams are required to carry their registration receipts along with their valid college ID
+            cards, laptops and any necessary laptop accessories.</p>
+            <h4>Q. Will food be provided? </h4>
+            <p>A. Yes, food will be provided. Participants will be given meals throughout the duration of the Hackathon. Tea
+            and Coffee will be served at appropriate timings.</p>
+            <h4>Q. Will internet connection be provided?
+            </h4>
+            <p>A. Yes, internet connection will be provided on one computer at the venue. Participants must bring their own
+            laptops to the event. </p>
+            <h4>Q. Is on-spot registration available?</h4>
+            <p>A. Yes, on-spot registration is allowed. Although, participants are requested to register before the event to
+            avoid any last-minute hassles.</p>
+            <h4>Q. Will there be any arrangement for entertainment?</h4>
+            <p>A. We will arrange for entertainment for the teams. Hope you like some soccer games.</p>
+            <h4>Q. Can one participant form a team?</h4>
+            <p>A. Yes, individual participation will be allowed but it is advised that at least two participants form a
+            team.</p>
+          </div>
+        </div>
       </div>
       
-    </div>
-    <footer>
-  <div class="container" id="contact">
-    <div class="row">
-      <div class="col-md-4 footer-column">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <span class="footer-title">Events Head</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABC</a>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link"><i class="fa fa-phone"></i>+47 45 80 80 80</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABE</a>
-          </li>
-          <li class="nav-item">
-             <span class="nav-link"><i class="fa fa-phone"></i>+47 45 80 80 80</span>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4 footer-column">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <span class="footer-title">Company</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Job postings</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">News and articles</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4 footer-column">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <span class="footer-title">Contact & Support</span>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link"><i class="fa fa-phone"></i>+47 45 80 80 80</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-comments"></i>Live chat</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-envelope"></i>Contact us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-star"></i>Give feedback</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    
-    
-    <div class="row text-center">
-      
-      <div class="col-md-4 box">
-        <ul class="list-inline social-buttons">
-          <li class="list-inline-item">
-            <a href="#">
-            <i class="fa fa-twitter"></i>
-          </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-            <i class="fa fa-facebook-f"></i>
-          </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          </li>
-        </ul>
-      </div>
-     
-    </div>
-  </div>
-</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-    var nav = document.querySelector('nav');
-    window.addEventListener('scroll', function(){
-    if(window.pageYOffset > 100){
-    nav.classList.add('bg-dark','shadow');
-    }else {
-    nav.classList.remove('bg-dark','shadow');
-    }
-    })
-    </script>
-    <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-    AOS.init();
-    </script>
-  </body>
-</html>
+      <div class="Contact" id="contact">
+        <!-- Site footer -->
+        <footer class="site-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 about">
+                <h6>About</h6>
+                <p class="text-justify">
+                  MindSpark is the national level, annual technical festival of College of Engineering, Pune.
+                </p>
+              </div>
+              <div class="col-xs-6 col-md-3 contact_footer">
+                <h6>Contact Us</h6>
+                <ul>
+                  <li><i class="fa fa-address-card"></i>Sumit Girnar</li>
+                  <li><i class="fa fa-phone"></i>8329366481</li>
+                </ul>
+                <ul>
+                  <li><i class="fa fa-address-card"></i>Sumit Girnar</li>
+                  <li><i class="fa fa-phone"></i>8329366481</li>
+                </ul>
+              </div>
+              <hr>
+              <!-- <div class="col-xs-6 col-md-3 ">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                  <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                  <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                  <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                  <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                </ul>
+              </div> -->
+              <div class="footer_email">
+                <div class="waviy">
+                  <span style="--i:1">m</span>
+                  <span style="--i:2">I</span>
+                  <span style="--i:3">n</span>
+                  <span style="--i:4">d</span>
+                  <span style="--i:5">s</span>
+                  <span style="--i:6">p</span>
+                  <span style="--i:7">a</span>
+                  <span style="--i:8">r</span>
+                  <span style="--i:9">k</span>
+                  <span style="--i:10"></span>
+                  <span style="--i:11"></span>
+                  
+                  <!-- <span style="--i:12">2</span>
+                  <span style="--i:13">1</span> -->
+                  
+                </div>
+                <h3 class="mail"><i class="fa fa-envelope"></i><a class="mailid" href="hackathon@mind-spark.com">hackathon@mind-spark.com</a></h3>
+              </div>
+              <hr>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                  <p class="copyright-text">Made By MindSpark'21 Web Team
+                  </p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        var nav = document.querySelector('nav');
+        window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+        nav.classList.add('bg-dark', 'shadow');
+        } else {
+        nav.classList.remove('bg-dark', 'shadow');
+        }
+        })
+        </script>
+        <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+        <script src="script.js"></script>
+      </body>
+    </html>
