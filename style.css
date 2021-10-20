@@ -14,8 +14,7 @@ body {
   /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSutFdLnvEOMdgfxvix2h4jcquLXaYH3AQV-A&usqp=CAU');
    background-size: cover;
    background-repeat: no-repeat;*/
-  background: rgb(105, 214, 213);
-  background: linear-gradient(180deg, rgba(105, 214, 213, 1) 0%, rgba(43, 159, 195, 1) 11%, rgba(52, 52, 218, 1) 45%, rgba(34, 41, 191, 1) 59%, rgba(27, 65, 177, 1) 74%, rgba(7, 42, 108, 0.9727241238292192) 93%);
+background-image: linear-gradient( 0.3deg,  rgba(6,17,33,1) 1.1%, rgba(42,98,226,1) 97.3% );
 }
 
 .logo {
@@ -45,7 +44,7 @@ body {
   letter-spacing: 3px;
   padding: 1vw;
   font-family: 'Bahnschrift Light';
-  font-size: 8vw;
+  font-size: 150px;
 }
 
 .bottom-container {
@@ -439,9 +438,20 @@ body {
 #Structure p {
   margin-bottom: 50px;
 }
+#Structure h4{
+  color: lightblue;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:5px;
+}
 
 #FAQ p {
   margin-bottom: 40px;
+}
+#FAQ h4 {
+  margin-bottom:5px;
+  font-weight: bolder;
+  color: lightblue;
 }
 
 /* Contact Page */
@@ -624,7 +634,7 @@ body {
 
 .about h6 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 1rem;
 }
 
@@ -635,6 +645,7 @@ body {
 .contact_footer ul {
   list-style: none;
   text-align: center;
+/*   margin-right: 35px; */
 }
 
 .contact_footer h6 {
@@ -711,7 +722,6 @@ body {
 }
 
 /* @media only screen and{
-
 } */
 @media screen and (min-width:240px) and (max-width:279px) {
   .complogo {
@@ -783,7 +793,8 @@ body {
 
   .bubbly-button {
     right: 20px;
-    font-size: 10px;
+    font-size: 9px;
+    width: 80%;
   }
 
   .bottom-container,
@@ -798,10 +809,10 @@ body {
     letter-spacing: 3px;
     padding: 1vw;
     font-family: 'Bahnschrift Light';
-    font-size: 9vw;
+    font-size: 13.5vw;
   }
   body{
-    font-size: 12px;
+    font-size: 9px;
   }
 
 }
@@ -874,6 +885,7 @@ body {
   .bubbly-button {
     right: 20px;
     font-size: 15px;
+    width: 85%;
   }
 
   .bottom-container,
@@ -888,10 +900,10 @@ body {
     letter-spacing: 3px;
     padding: 1vw;
     font-family: 'Bahnschrift Light';
-    font-size: 9vw;
+    font-size: 13vw;
   }
   body{
-    font-size: 16px;
+    font-size: 11px;
   }
 
 }
@@ -975,7 +987,7 @@ body {
     letter-spacing: 3px;
     padding: 1vw;
     font-family: 'Bahnschrift Light';
-    font-size: 9vw;
+    font-size: 14vw;
   }
 
 }
@@ -1026,6 +1038,7 @@ body {
   }
 
   .about h6 {
+
     text-align: center;
     font-size: 1.3rem;
     margin: 1rem;
@@ -1060,7 +1073,7 @@ body {
     letter-spacing: 3px;
     padding: 1vw;
     font-family: 'Bahnschrift Light';
-    font-size: 9vw;
+    font-size: 15vw;
   }
 
 }
@@ -1144,7 +1157,7 @@ body {
     letter-spacing: 3px;
     padding: 1vw;
     font-family: 'Bahnschrift Light';
-    font-size: 9vw;
+    font-size: 12vw;
   }
 
 }
@@ -1228,7 +1241,7 @@ body {
     letter-spacing: 3px;
     padding: 1vw;
     font-family: 'Bahnschrift Light';
-    font-size: 9vw;
+    font-size: 13vw;
   }
 
 }
@@ -1249,4 +1262,55 @@ body {
   height: 4rem;
   margin-right: 20px;
   color: red;
+}
+
+.border{
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Rubik', sans-serif;
+}
+
+.about h6{
+  font-weight: bold;
+}
+#Problem{
+background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+
+
+
+
+}
+#objective{
+background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+
+
+
+}
+#Rules{
+background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+
+
+
+
+
+}
+#FAQ{
+background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+
+
+
+}
+#Date1 {
+ background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#Teams{
+ background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#Structure{
+ background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
